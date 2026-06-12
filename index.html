@@ -3,17 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Афипский новостник</title>
-
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
 <header>
   <div class="logo">Афипский новостник</div>
+
   <nav>
     <a href="index.html">Главная</a>
     <a href="news.html">Лента</a>
@@ -24,23 +22,24 @@
 
   <div class="layout">
 
-    <!-- LEFT -->
     <div>
 
       <div class="hero">
         <img id="heroImg" src="https://picsum.photos/1200/600">
         <div class="hero-content">
-          <h1 id="heroTitle">Загрузка новостей...</h1>
-          <p id="heroText">Подождите секунду</p>
+          <h1 id="heroTitle">Загрузка...</h1>
+          <p id="heroText">Подождите</p>
         </div>
       </div>
 
-      <h2 style="margin-top:15px;">Лента новостей</h2>
+      <h2 style="margin-top:15px;">Новости</h2>
       <div class="grid" id="newsGrid"></div>
+
+      <!-- 🔴 КОНТАКТЫ -->
+      <div id="contacts" class="contacts"></div>
 
     </div>
 
-    <!-- RIGHT -->
     <aside class="side" id="sideNews"></aside>
 
   </div>
