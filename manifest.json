@@ -1,0 +1,8 @@
+{
+  "name": "Афипский новостник",
+  "short_name": "Новостник",
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#0f4d2e",
+  "background_color": "#ffffff"
+}
